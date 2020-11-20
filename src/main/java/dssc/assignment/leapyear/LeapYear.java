@@ -7,7 +7,15 @@ public class LeapYear {
     }
 
     /**
-     * Print "true" if the year is leap and "false" otherwise.
+     * For a given year, prints on the standard output "true" if
+     * it is a leap year, "false" otherwise
+     */
+    public void print(int year) {
+        System.out.print(isLeapYear(year));
+    }
+
+    /**
+     * Return "true" if the year is leap and "false" otherwise.
      */
     public String isLeapYear(int year){
         if( year % 4 == 0
