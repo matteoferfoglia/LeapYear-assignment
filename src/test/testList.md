@@ -23,4 +23,4 @@
 - [X] 2400 -> "true"
 
 ## Test "_print on standard output_"
-- [ ] green state for this test
+- [X] green state for this test
