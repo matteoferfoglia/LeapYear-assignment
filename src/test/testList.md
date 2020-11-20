@@ -18,9 +18,9 @@
 - [X] 1900 -> "false"
 
 ### List of years divisible by 4 and by 100 and by 400 (atypical leap years)
-- [ ] 1600 -> "true"
-- [ ] 2000 -> "true"
-- [ ] 2400 -> "true"
+- [X] 1600 -> "true"
+- [X] 2000 -> "true"
+- [X] 2400 -> "true"
 
 ## Test "_print on standard output_"
 - [ ] green state for this test
