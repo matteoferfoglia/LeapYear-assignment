@@ -10,7 +10,10 @@ public class LeapYear {
      * Print "yes" if the year is leap and false otherwise.
      */
     public String leapYear(int year){
-        return "false" ;
+        if( year % 4 == 0 )
+            return "true" ;
+        else
+            return "false" ;
     }
 
 }
