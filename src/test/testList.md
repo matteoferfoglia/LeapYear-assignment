@@ -8,9 +8,9 @@
 - [X] 2003 -> "false"
 
 ### List of years divisible by 4, but not by 100 (typical leap years)
-- [ ] 1996 -> "true"
-- [ ] 2004 -> "true"
-- [ ] 2008 -> "true"
+- [X] 1996 -> "true"
+- [X] 2004 -> "true"
+- [X] 2008 -> "true"
 
 ### List of years divisible by 4 and by 100,but not by 400 (atypical common years)
 - [ ] 1700 -> "false"
