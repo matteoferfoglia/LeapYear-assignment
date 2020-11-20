@@ -18,11 +18,8 @@ public class LeapYear {
      * Return true if the year is leap and false otherwise.
      */
     public boolean isLeapYear(int year){
-        if( year % 4 == 0
-                && ( year % 100 != 0 || year % 400 == 0 ) )
-            return true;
-        else
-            return false;
+        return year % 4 == 0
+                && ( year % 100 != 0 || year % 400 == 0 );
     }
 
 }
