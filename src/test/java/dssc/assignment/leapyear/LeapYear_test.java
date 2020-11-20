@@ -21,4 +21,13 @@ public class LeapYear_test {
         assertEquals(expected,leapYear.isLeapYear(year));
     }
 
+    @ParameterizedTest
+    @CsvSource({"1700, false", "1800, false", "1900, false"})
+    void yearsDivisibleBy4AndBy100ButNotBy400(int year, String expected){
+        LeapYear leapYear = new LeapYear();
+        assertEquals(expected,leapYear.isLeapYear(year));
+    }
+
+
+
 }

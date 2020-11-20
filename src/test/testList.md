@@ -13,9 +13,9 @@
 - [X] 2008 -> "true"
 
 ### List of years divisible by 4 and by 100,but not by 400 (atypical common years)
-- [ ] 1700 -> "false"
-- [ ] 1800 -> "false"
-- [ ] 1900 -> "false"
+- [X] 1700 -> "false"
+- [X] 1800 -> "false"
+- [X] 1900 -> "false"
 
 ### List of years divisible by 4 and by 100 and by 400 (atypical leap years)
 - [ ] 1600 -> "true"
