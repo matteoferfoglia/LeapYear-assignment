@@ -3,9 +3,9 @@
 ## Test "_true_"/"_false_"
 
 ### List of years not divisible by 4 (typical common years)
-- [ ] 2001 -> "false"
-- [ ] 2002 -> "false"
-- [ ] 2003 -> "false"
+- [X] 2001 -> "false"
+- [X] 2002 -> "false"
+- [X] 2003 -> "false"
 
 ### List of years divisible by 4, but not by 100 (typical leap years)
 - [ ] 1996 -> "true"

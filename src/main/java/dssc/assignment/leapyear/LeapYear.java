@@ -7,13 +7,16 @@ public class LeapYear {
     }
 
     /**
-     * Print "yes" if the year is leap and false otherwise.
+     * Print "true" if the year is leap and false otherwise.
      */
-    public String leapYear(int year){
+    public String isLeapYear(int year){
         if( year % 4 == 0 )
-            return "false" ;
+            if( year % 100 == 0 )
+                return "false";
+            else
+                return "true";
         else
-            return "true" ;
+            return "false";
     }
 
 }
