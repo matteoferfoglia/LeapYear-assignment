@@ -11,9 +11,9 @@ public class LeapYear {
      */
     public String leapYear(int year){
         if( year % 4 == 0 )
-            return "true" ;
-        else
             return "false" ;
+        else
+            return "true" ;
     }
 
 }

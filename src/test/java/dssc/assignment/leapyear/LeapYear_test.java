@@ -1,15 +1,17 @@
 package dssc.assignment.leapyear;
 
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class LeapYear_test {
 
-    @Test
-    void numbersDivisibleBy4(){
+    @ParameterizedTest
+    @CsvSource({"2001, true", "2002, true", "2003, true"})
+    void numbersNotDivisibleBy4(int year, String expected){
         LeapYear leapYear = new LeapYear();
-        assertEquals("true", leapYear.leapYear(40));    //40 is for sure divisible by 4
+        assertEquals(expected, leapYear.leapYear(year));
     }
 
 }
